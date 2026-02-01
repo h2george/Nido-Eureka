@@ -1,0 +1,9 @@
+
+C:\Users\Usuario\.gemini\Webs\Nido Eureka\src\components\ui\Button.tsx
+  13:5  warning  'size' is assigned a value but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\Usuario\.gemini\Webs\Nido Eureka\src\pages\Admision.tsx
+  30:9  warning  'programs' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Ô£û 2 problems (0 errors, 2 warnings)
+

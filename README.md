@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Nido Eureka 🚀
+**Un espacio donde la infancia se celebra con asombro y aprendizaje.**
 
-# Run and deploy your AI Studio app
+Este proyecto es la **plataforma digital oficial del Nido Eureka**, diseñada para transmitir nuestra filosofía educativa ("Nurturing Modernism") y facilitar la conexión con las familias. Más que una página web, es una extensión de nuestra propuesta pedagógica: visual, interactiva y centrada en el niño.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1QqKh9rmYk0nZb-3UU0VRifWGWv3lGtlN
+## 🌟 Propósito del Proyecto
+El objetivo principal es servir como el **canal de admisión y comunicación institucional**, permitiendo a los padres:
+1. **Descubrir nuestra propuesta**: Conocer nuestra metodología basada en el juego, el arte y la investigación.
+2. **Explorar las instalaciones**: A través de una experiencia visual inmersiva.
+3. **Gestionar la admisión**: Iniciar y seguir el proceso de matrícula de forma 100% digital.
+4. **Conectar con la comunidad**: Acceder a información sobre nuestro equipo, historia y valores.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🎨 Experiencia de Usuario (UX)
+La plataforma ha sido construida bajo un sistema de diseño propio llamado **"Nurturing Modernism"**, que prioriza:
+- **Glassmorphism & Vibrancia**: Uso de transparencias y una paleta de colores HSL dinámica (Coral, Purple, Blue, Yellow) que evoca alegría y profesionalismo.
+- **Navegación Intuitiva**: Estructura clara (`Inicio`, `Propuesta`, `Nosotros`, `Admisión`) pensada para guiar a los padres paso a paso.
+- **Interactividad**: Micro-animaciones y transiciones suaves que hacen la navegación agradable y moderna.
+- **Responsividad Total**: Experiencia optimizada para móviles, tablets y escritorio.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠 Funcionalidades Clave
+- **Landing Page Inmersiva**: Video hero section y presentación de alto impacto.
+- **Módulo de Admisión**: Flujo claro de matrícula con explicación de requisitos y costos.
+- **Sección "Nosotros"**: Historia, equipo y valores de la institución.
+- **Presentación de Programas**: Detalle de los niveles (Nursery, Pre-Kinder, Kinder) con enfoque por edades.
+- **FAQ Interactivo**: Sección de preguntas frecuentes para resolver dudas comunes de inmediato.
+
+---
+
+> *"Cultivando mentes curiosas y corazones felices desde el primer paso."*

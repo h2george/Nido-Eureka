@@ -14,13 +14,14 @@ src/
 │   ├── Home.tsx
 │   ├── Admision.tsx
 │   ├── Propuesta.tsx
-│   ├── Equipo.tsx
-│   └── Historia.tsx
+│   ├── Nosotros.tsx
+│   ├── Form.tsx
+│   └── Confirmacion.tsx
 ├── styles/
 │   └── index.css (Sistema de diseño centralizado)
-├── hooks/ (preparado)
-├── utils/ (preparado)
-├── types/ (preparado)
+├── hooks/
+├── utils/
+├── types/
 ├── App.tsx
 └── main.tsx
 ```
@@ -71,9 +72,8 @@ src/
 **Navegación**: ✅ Todas las rutas funcionan
 - `/` - Home
 - `/propuesta` - Nuestra Propuesta
-- `/equipo` - Equipo
+- `/nosotros` - Nosotros (Equipo + Historia)
 - `/admision` - Matrícula 2026
-- `/historia` - Historia
 
 **Consola del Navegador**: ✅ Sin errores críticos
 - Advertencia de Tailwind CDN (normal en desarrollo)

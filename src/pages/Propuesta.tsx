@@ -9,13 +9,7 @@ const Propuesta: React.FC = () => {
     { title: 'Lenguajes Naturales', desc: 'El arte, el juego y el movimiento son las herramientas con las que expresan su mundo interno.', icon: 'palette', color: 'bg-brand-coral', shape: 'shape-crear' }
   ];
 
-  const dailySteps = [
-    { time: '8:30 AM', title: 'Llegada', desc: 'Cálida bienvenida y juego libre.', icon: 'login', color: 'bg-brand-purple' },
-    { time: '9:15 AM', title: 'Asamblea', desc: 'Canciones y planificación.', icon: 'groups', color: 'bg-brand-blue' },
-    { time: '10:00 AM', title: 'Talleres', desc: 'Exploración y creación.', icon: 'psychology', color: 'bg-brand-green' },
-    { time: '11:30 AM', title: 'Snack', desc: 'Nutrición y socialización.', icon: 'restaurant', color: 'bg-brand-yellow' },
-    { time: '1:30 PM', title: 'Salida', desc: 'Cierre del día con alegría.', icon: 'logout', color: 'bg-brand-pink' }
-  ];
+
 
   const heroImages = [
     "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=800",

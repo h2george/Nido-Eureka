@@ -27,12 +27,7 @@ const Admision: React.FC = () => {
     }
   ];
 
-  const programs = [
-    { name: 'Nursery', ages: '2 años' },
-    { name: 'Pre-Kinder', ages: '3-4 años' },
-    { name: 'Kinder', ages: '5 años' },
-    { name: 'After School', ages: 'Talleres' }
-  ];
+
 
   return (
     <div className="bg-background-light">
