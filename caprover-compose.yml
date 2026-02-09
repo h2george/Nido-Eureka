@@ -2,7 +2,7 @@ captainVersion: 4
 
 services:
   $$cap_appname:
-    image: build-local
+    image: ghcr.io/h2george/nido-eureka:latest
     restart: always
     environment:
       NODE_ENV: production
