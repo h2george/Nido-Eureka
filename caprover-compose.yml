@@ -1,0 +1,16 @@
+captainVersion: 4
+
+services:
+  $$cap_appname:
+    image: build-local
+    restart: always
+    environment:
+      NODE_ENV: production
+    caproverExtra:
+      containerHttpPort: "80"
+
+caproverOneClickApp:
+  variables: []
+  instructions:
+    start: Despliega Nido Eureka (Vite + Nginx) en CapRover.
+    end: La aplicación ha sido desplegada correctamente y está siendo servida por Nginx en el puerto 80.
