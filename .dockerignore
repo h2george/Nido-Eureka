@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.env
+.env.local
+README.md
+PROJECT_STATUS.md
+conductor
+.vscode
+.idea
+.npm
+npm-debug.log
+error_report.txt
+lint_report.txt
+lint_report_2.txt

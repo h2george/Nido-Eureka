@@ -32,4 +32,26 @@ La plataforma ha sido construida bajo un sistema de diseño propio llamado **"Nu
 
 ---
 
+## 🚀 Despliegue y Ejecución
+
+### Requisitos Previos
+- Docker y Docker Compose instalados.
+
+### Ejecución Local con Docker
+Para levantar la aplicación en un contenedor localmente:
+```bash
+docker compose up --build
+```
+La aplicación estará disponible en `http://localhost:3000`.
+
+### Despliegue en CapRover
+Este proyecto está preparado para desplegarse en **CapRover**. 
+1. Asegúrate de tener el archivo `captain-definition` en la raíz.
+2. Despliega usando el CapRover CLI o subiendo un archivo `.tar`:
+```bash
+caprover deploy
+```
+
+---
+
 > *"Cultivando mentes curiosas y corazones felices desde el primer paso."*

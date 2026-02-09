@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Footer: React.FC = () => {
+export const Footer: React.FC = () => {
   return (
     <footer className="bg-brand-purple text-white relative overflow-hidden pt-24 pb-12">
       {/* Decorative Background Elements */}
@@ -183,5 +183,3 @@ const Footer: React.FC = () => {
     </footer>
   );
 };
-
-export default Footer;

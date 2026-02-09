@@ -1,12 +1,7 @@
 import React from 'react';
+import { CardProps } from '@/types';
 
-interface CardProps {
-    children: React.ReactNode;
-    className?: string;
-    variant?: 'glass' | 'solid' | 'interactive';
-}
-
-const Card: React.FC<CardProps> = ({
+export const Card: React.FC<CardProps & { variant?: 'glass' | 'solid' | 'interactive' }> = ({
     children,
     className = '',
     variant = 'glass'
@@ -18,10 +13,8 @@ const Card: React.FC<CardProps> = ({
     };
 
     return (
-        <div className={`${variants[variant]} ${className}`}>
+        <div className={`${variants[variant] || variants.glass} ${className}`}>
             {children}
         </div>
     );
 };
-
-export default Card;

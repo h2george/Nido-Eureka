@@ -1,17 +1,11 @@
 import React from 'react';
+import { ButtonProps } from '@/types';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    variant?: 'primary' | 'secondary' | 'accent' | 'outline';
-    size?: 'sm' | 'md' | 'lg';
-    isLoading?: boolean;
-}
-
-const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps & React.ButtonHTMLAttributes<HTMLButtonElement>> = ({
     children,
     className = '',
     variant = 'primary',
     size = 'md',
-    isLoading = false,
     ...props
 }) => {
     const baseStyles = 'premium-button';
@@ -21,6 +15,7 @@ const Button: React.FC<ButtonProps> = ({
         secondary: 'bg-brand-purple text-white shadow-brand-purple/40',
         accent: 'bg-brand-yellow text-brand-purple shadow-brand-yellow/40',
         outline: 'border-2 border-brand-purple text-brand-purple hover:bg-brand-purple hover:text-white bg-transparent',
+        glass: 'glass-card text-brand-purple hover:bg-white/20',
     };
 
     const sizes: Record<string, string> = {
@@ -31,17 +26,10 @@ const Button: React.FC<ButtonProps> = ({
 
     return (
         <button
-            className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className} ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
-            disabled={isLoading || props.disabled}
+            className={`${baseStyles} ${variants[variant] || variants.primary} ${sizes[size] || sizes.md} ${className}`}
             {...props}
         >
-            {isLoading ? (
-                <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-            ) : (
-                children
-            )}
+            {children}
         </button>
     );
 };
-
-export default Button;
